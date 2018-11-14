@@ -1,0 +1,524 @@
+{
+    "err": [],
+    "restaurantInfo": {
+        "id": 1,
+        "name": "Mr India - Restauracja Indyjska",
+        "description": "W naszej restauracji \"Mr India” prezentujemy Państwu prawdziwą esencje kuchni indyjskiej. Ta wspaniała sztuka kulinarna z Północnych Indii wywodzi się z czasów Cesarstwa Mogul, gdy mistrzowie kuchni wykorzystywali swoje umiejętności, aby zadowalać podniebienia potężnych Maharadz’ów. Potrawy północno indyjskie są barwne i kolorowe, przez wykorzystanie dodatków takich jak chili, imbir i liście kolendry.\r\n\r\nNaszą główną specjalnością są potrawy z pieca Tandoor. Te dania z jagnięciny. kurczaka i wyrabianego domowymi sposobami sera (paneer) są delikatnie przyprawiane mieszankami specjalnych marynat i gotowanie powoli w tradycyjnych glinianych piecach nazywanych \"Tandoor”.",
+        "phone": "222130689",
+        "contactPhone": "222130689",
+        "contactEmail": "info@mrindia.pl",
+        "countryCode": "+48",
+        "street": "aleja Komisji Edukacji Narodowej",
+        "blockNo": "47",
+        "localNo": 0,
+        "postalCode": "02-797",
+        "socialLinks": {
+            "facebook": "https://www.facebook.com/mrindiapl/",
+            "google": "https://plus.google.com/u/0/+MrIndiaRestauracjaIndyjskaWarszawa",
+            "twitter": "https://twitter.com/mrindiapoland?lang=en",
+            "pintrest": "https://pl.pinterest.com/mrindiapoland/",
+            "instagram": ""
+        },
+        "workingHours": [{
+                "day": "Sunday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3885"
+            },
+            {
+                "day": "Monday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3886"
+            },
+            {
+                "day": "Tuesday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3887"
+            },
+            {
+                "day": "Wednesday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3888"
+            },
+            {
+                "day": "Thursday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3889"
+            },
+            {
+                "day": "Friday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3890"
+            },
+            {
+                "day": "Saturday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3891"
+            }
+        ],
+        "deliveryHours": [{
+                "day": "Sunday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3906"
+            },
+            {
+                "day": "Monday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3907"
+            },
+            {
+                "day": "Tuesday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3908"
+            },
+            {
+                "day": "Wednesday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3909"
+            },
+            {
+                "day": "Thursday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3910"
+            },
+            {
+                "day": "Friday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3911"
+            },
+            {
+                "day": "Saturday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3912"
+            }
+        ],
+        "takeAwayHours": [{
+                "day": "Sunday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3927"
+            },
+            {
+                "day": "Monday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3928"
+            },
+            {
+                "day": "Tuesday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3929"
+            },
+            {
+                "day": "Wednesday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3930"
+            },
+            {
+                "day": "Thursday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3931"
+            },
+            {
+                "day": "Friday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3932"
+            },
+            {
+                "day": "Saturday",
+                "timing": {
+                    "open": "11:00",
+                    "close": "22:00"
+                },
+                "$hashKey": "object:3933"
+            }
+        ],
+        "map": {
+            "latitude": [
+                "52.143917"
+            ],
+            "longitude": [
+                "21.053303"
+            ]
+        },
+        "isReservation": "Yes",
+        "isDelivery": "Yes",
+        "deliveryRange": [
+            "km",
+            {
+                "range": [
+                    "0",
+                    "5"
+                ],
+                "value": "0"
+            },
+            {
+                "range": [
+                    "5",
+                    "10"
+                ],
+                "value": "10"
+            },
+            {
+                "range": [
+                    "10",
+                    "15"
+                ],
+                "value": "15"
+            },
+            {
+                "range": [
+                    "15",
+                    "19"
+                ],
+                "value": "20"
+            },
+            {
+                "range": [
+                    "19",
+                    "1000000"
+                ],
+                "value": "32"
+            }
+        ],
+        "deliveryNotes": "",
+        "deliveryMinOrderAmt": 50,
+        "paymentMethod": [
+            "Cash",
+            "Card"
+        ],
+        "currency": "z&#322;",
+        "website": "https://www.mrindia.pl",
+        "photoVersion": 5,
+        "authBgVersion": 2,
+        "generalBgVersion": 2,
+        "logoVersion": 2,
+        "faviconVersion": 1,
+        "closedVersion": 3,
+        "provideInvoice": "Yes",
+        "defaultLanguage": 2,
+        "deliveryTimePeriod": 45,
+        "city": "Warszawa",
+        "numOfGuests": 30,
+        "cityId": 1,
+        "widgetBgVersion": 2,
+        "widgetLogoVersion": 3,
+        "favoriteVersion": 8,
+        "oauthCredentials": [{
+                "provider": "facebook",
+                "key": "614564268733905",
+                "secret": "97e935d3a3583e078af915592aded96d",
+                "androidKey": "1828548320742291",
+                "androidSecret": "2ef781f6bc08d980a2f348c9e47770a2",
+                "iosKey": "1828548320742291",
+                "iosSecret": "2ef781f6bc08d980a2f348c9e47770a2"
+            },
+            {
+                "provider": "google",
+                "key": "759365918084-ofppmdfc5e8ui8me8qq71cg85devtc4g.apps.googleusercontent.com",
+                "secret": "nnnMXYNIq8dt2oeXa89gBtni",
+                "androidKey": "759365918084-ovt6cef7at8ta35srfsivg8be0tmb201.apps.googleusercontent.com",
+                "androidSecret": "nnnMXYNIq8dt2oeXa89gBtni",
+                "iosKey": "759365918084-987hgectqjj5a6tjdo3m06o539opiv3t.apps.googleusercontent.com",
+                "iosSecret": "nnnMXYNIq8dt2oeXa89gBtni"
+            }
+        ],
+        "payGateInfo": {
+            "merchantId": 0,
+            "crc": "",
+            "currency": "PLN",
+            "country": "PL"
+        },
+        "languages": [{
+                "languageId": 2,
+                "id": 1,
+                "languageUniversal": "en",
+                "languageTitle": "English"
+            },
+            {
+                "languageId": 5,
+                "id": 4,
+                "languageUniversal": "pl",
+                "languageTitle": "Polish"
+            }
+        ],
+        "appVersionDetails": {
+            "id": 20,
+            "restaurantId": 1,
+            "version": {
+                "android": "4.0.0",
+                "ios": "4.0.0"
+            },
+            "url": {
+                "android": "https://play.google.com/store/apps/details?id=pl.r9.mrindia&hl=en",
+                "ios": "https://itunes.apple.com/us/app/mr-india-kuchnia-indyjska/id1221399016?l=pl&ls=1&mt=8"
+            }
+        },
+        "cities": [{
+                "id": 1,
+                "name": "Warszawa"
+            },
+            {
+                "id": 2,
+                "name": "Piaseczno"
+            },
+            {
+                "id": 3,
+                "name": "Raszyn"
+            },
+            {
+                "id": 4,
+                "name": "Pruszkow"
+            },
+            {
+                "id": 5,
+                "name": "Mysiadlo"
+            },
+            {
+                "id": 6,
+                "name": "Konstancin"
+            },
+            {
+                "id": 7,
+                "name": "Antoninów"
+            },
+            {
+                "id": 8,
+                "name": "Baszkówka"
+            },
+            {
+                "id": 9,
+                "name": "Bąkówka"
+            },
+            {
+                "id": 10,
+                "name": "Bobrowiec"
+            },
+            {
+                "id": 11,
+                "name": "Bogatki"
+            },
+            {
+                "id": 12,
+                "name": "Chojnów"
+            },
+            {
+                "id": 13,
+                "name": "Chylice"
+            },
+            {
+                "id": 14,
+                "name": "Chylice-pólko"
+            },
+            {
+                "id": 15,
+                "name": "Chyliczki"
+            },
+            {
+                "id": 16,
+                "name": "Głosków"
+            },
+            {
+                "id": 17,
+                "name": "Głosków-letnisko"
+            },
+            {
+                "id": 18,
+                "name": "Gołków"
+            },
+            {
+                "id": 19,
+                "name": "Grochowa"
+            },
+            {
+                "id": 20,
+                "name": "Henryków-urocze"
+            },
+            {
+                "id": 21,
+                "name": "Jastrzębie"
+            },
+            {
+                "id": 22,
+                "name": "Jazgarzew"
+            },
+            {
+                "id": 23,
+                "name": "Jesówka"
+            },
+            {
+                "id": 24,
+                "name": "Jósefosław"
+            },
+            {
+                "id": 25,
+                "name": "Julianów"
+            },
+            {
+                "id": 26,
+                "name": "Kamionka"
+            },
+            {
+                "id": 27,
+                "name": "Karolin"
+            },
+            {
+                "id": 28,
+                "name": "Kuleszówka"
+            },
+            {
+                "id": 29,
+                "name": "Leśniczówka na zielonym"
+            },
+            {
+                "id": 30,
+                "name": "Łbiska"
+            },
+            {
+                "id": 31,
+                "name": "Mieszkowo"
+            },
+            {
+                "id": 32,
+                "name": "Nowinki"
+            },
+            {
+                "id": 33,
+                "name": "Orzeszyn"
+            },
+            {
+                "id": 34,
+                "name": "Pęchery (wieś)"
+            },
+            {
+                "id": 35,
+                "name": "Pilawa (osada leśna)"
+            },
+            {
+                "id": 36,
+                "name": "Robercin"
+            },
+            {
+                "id": 37,
+                "name": "Runów (wieś)"
+            },
+            {
+                "id": 38,
+                "name": "Runów (osada leśna)"
+            },
+            {
+                "id": 39,
+                "name": "Siedliska"
+            },
+            {
+                "id": 40,
+                "name": "Szczaki"
+            },
+            {
+                "id": 41,
+                "name": "Wola gołkowska"
+            },
+            {
+                "id": 42,
+                "name": "Wólka kozodawska"
+            },
+            {
+                "id": 43,
+                "name": "Wólka"
+            },
+            {
+                "id": 44,
+                "name": "Pęcherska"
+            },
+            {
+                "id": 45,
+                "name": "Wólka pracka"
+            },
+            {
+                "id": 46,
+                "name": "Zalesie górne"
+            },
+            {
+                "id": 47,
+                "name": "Złotokłos"
+            },
+            {
+                "id": 48,
+                "name": "żabieniec"
+            }
+        ]
+    },
+    "staticPage": [{
+            "title": "Polityka Prywatności",
+            "content": "<p><span></span></p><p></p><h3><span style=\"color: #000000;background-color: transparent;\"><b>Wstęp </b></span></h3><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\"><b>Mr India Restauracja Indyjska - MR INDIA ARUNBHAI BAROT</b></span><span style=\"color: #000000;background-color: #ffffff;\"> zarejestrowana w Warszawie 02-797, Aleja Komisji Edukacji Narodowej 47/U4, wpisana do Centralnej Ewidencji i Informacji o Działalności Gospodarczej, NIP: 9512259450, REGON: 146927790 </span><span style=\"color: #000000;background-color: transparent;\">(z</span><span style=\"color: #000000;background-color: #ffffff;\">wana dalej też: „Restauracja”),</span><span style=\"color: #ff0000;background-color: #ffffff;\"> </span><span style=\"color: #000000;background-color: #ffffff;\">jako Administrator chroni dane osobowe użytkowników. Administrator wypełnia obowiązki wynikające z ustawy z dnia 29 sierpnia 1997 roku o ochronie danych osobowych (t.j. Dz.U. z 2002 r. Nr 101, poz. 926) oraz Rozporządzenia Parlamentu Europejskiego i Rady UE 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO). </span></p><h3><span style=\"color: #000000;background-color: #ffffff;\"><b>Warunki utworzenia konta</b></span></h3><ul><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Konto w serwisie założyć może osoba pełnoletnia, której przysługuje pełna zdolność do czynności prawnych. W przypadku osób niepełnoletnich, które nie ukończyły 16 lat, wymagana jest zgoda pełnoletniego opiekuna prawnego.</span></p></li></ul><ul><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Konto w serwisie może utworzyć jedynie użytkownik. Konta zarejestrowane przez &#34;roboty&#34; lub za pomocą innych zautomatyzowanych metod nie są dozwolone i będą usuwane przez administratora.</span></p></li></ul><ul><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Użytkownik jest odpowiedzialny za utrzymanie bezpieczeństwa konta i hasła. Administrator nie może </span><span style=\"color: #000000;background-color: #ffffff;\"><br class=\"kix-line-break\"/></span><span style=\"color: #000000;background-color: #ffffff;\">i nie będzie ponosić odpowiedzialności za żadne straty lub uszkodzenia wynikające </span><span style=\"color: #000000;background-color: #ffffff;\"><br class=\"kix-line-break\"/></span><span style=\"color: #000000;background-color: #ffffff;\">z nieprzestrzegania tego wymogu bezpieczeństwa przez użytkownika.</span></p></li></ul><ul><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Zakazuje się podszywania lub wykorzystywania tożsamości kogoś innego podczas korzystania z usług serwisu.</span></p></li></ul><ul><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Jedna osoba fizyczna lub prawna może posiadać nie więcej niż jedno konto.</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Użytkownik nie może korzystać z usług serwisu w celach niezgodnych z prawem lub nieautoryzowanych.  </span></p></li></ul><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"> </p><h3><span style=\"color: #000000;background-color: #ffffff;\"><b>Sposób wykorzystywania i okres archiwizowania zebranych danych osobowych</b></span></h3><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Administrator przetwarza dane osobowe zbierane za pośrednictwem serwisu oraz aplikacji mobilnych po wyrażeniu zgody przez użytkownika, takie jak:</span></p><ul><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Imię i Nazwisko</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Adres zamieszkania</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Numer telefonu</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Adres mail</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Adres IP</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">System operacyjny z urządzenia, z którego korzysta użytkownik (w przypadku korzystania z aplikacji mobilnej).</span></p></li></ul><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: rgb(0, 0, 0);\">Podanie powyższych danych jest dobrowolne i nieobowiązkowe. Jednak niepodanie danych może skutkować utrudnioną realizacją usług, które świadczy Restauracja. Zebrane dane przechowywane są przez Administratora do czasu rezygnacji użytkownika z usług Restauracji.</span></p><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Powyższe dane są wykorzystywane w celu realizacji usług Restauracji świadczonych użytkownikom takich jak:</span></p><ul><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Składanie zamówień w aplikacji mobilnej lub przez stronę internetową</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Rezerwacja stolików w restauracji</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Dostawa zamówień</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Wysyłanie ofert specjalnych/kuponów zniżkowych</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Dokonywanie płatności za zamówienia</span></p></li><li dir=\"ltr\" style=\"color: #000000;background-color: transparent;\"><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: #000000;background-color: #ffffff;\">Otrzymywanie informacji o statusie zamówień/rezerwacji.</span></p></li></ul><h3><span style=\"color: rgb(0, 0, 0);\"><b>Prawa użytkownika</b></span></h3><p dir=\"ltr\" style=\"text-align: justify;background-color: #ffffff;\"><span style=\"color: rgb(0, 0, 0);\">Użytkownik ma prawo uzyskania informacji o tym, jakie dane i w jakich celach są przetwarzane, a także prawo przeniesienia treści swoich danych, żądania ich poprawy oraz usunięcia.  Ponadto, użytkownikowi przysługuje prawo do wycofania udzielonej zgody, zgłoszenia sprzeciwu oraz żądania ograniczenia przetwarzania danych.</span><br/></p><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Użytkownikowi przysługuje również prawo do ludzkiej interwencji i zakwestionowania decyzji w sytuacji, kiedy system w wyraźny sposób się myli. W takim przypadku użytkownik powinien skontaktować się z Administratorem drogą mailową na adres e-mail:</span><span style=\"color: #980000;background-color: #ffffff;\"> admin@mrindia.pl</span><span style=\"color: #000000;background-color: #ffffff;\">.</span></p><h3><span style=\"color: #000000;background-color: #ffffff;\"><b>Ochrona informacji osobowych</b></span></h3><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Administrator podejmuje wszelkie kroki, aby chronić dane osobowe użytkowników przed ich utratą, niewłaściwym wykorzystaniem, nieautoryzowanym dostępem, ujawnieniem, zmianą oraz zniszczeniem. </span></p><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Administrator nie ponosi odpowiedzialności za ujawnienie informacji z powodu błędów w transmisji, nieuprawnionego dostępu osób trzecich lub innych przyczyn niezależnych od Administratora. To użytkownik odgrywa najważniejszą rolę w bezpiecznym utrzymaniu danych osobowych. Nie należy dzielić się z innymi  nazwą użytkownika, hasłami lub innymi informacjami dotyczącymi zabezpieczeń kont.</span></p><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Dane osobowe użytkowników wykorzystywane są jedynie do realizacji świadczonych przez Restaurację usług oraz prawidłowego wykonania umów zawartych na podstawie składanych zamówień.</span></p><h3><span style=\"color: #000000;background-color: transparent;\"><b>Udostępnianie danych osobowych innym podmiotom</b></span></h3><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: transparent;\">Administrator uprawniony jest do przekazywania danych osobowych następującym kategoriom odbiorców: upoważnieni pracownicy i przedstawiciele administratora i podmioty przetwarzające dane osobowe, na podstawie umów powierzenia przetwarzania danych osobowych.</span></p><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: transparent;\">Administrator może udostępniać dane osobowe użytkowników wyłącznie właściwym organom władzy publicznej i wymiaru sprawiedliwości działającym na podstawie i w granicach przepisów prawa bądź osobom trzecim, jeżeli obowiązek udostępnienia danych na ich żądanie wynika z przepisów prawa.</span></p><h3><span style=\"color: #000000;background-color: #ffffff;\"><b>Polityka cookie</b></span></h3><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Aby dowiedzieć się więcej na temat cookies utworzonych na naszej stronie internetowej, zobacz naszą politykę cookie. </span></p><h3><span style=\"color: #000000;background-color: #ffffff;\"><b>Składanie skarg</b></span></h3><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Skargi dotyczące naruszenia bezpieczeństwa danych lub przepisów o ochronie danych użytkownik powinien zgłosić drogą mailową na adres </span><span style=\"color: #980000;background-color: #ffffff;\">admin@mrindia.pl</span><span style=\"color: #000000;background-color: #ffffff;\">.</span></p><h3><span style=\"color: #000000;background-color: transparent;\"><b>Rezygnacja z usług Restauracji</b></span></h3><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Użytkownik może w każdym czasie poprosić o usunięcie swoich danych z bazy, wysyłając odpowiedni mail na adres </span><span style=\"color: #980000;background-color: #ffffff;\">admin@mrindia.pl</span><span style=\"color: #000000;background-color: #ffffff;\">.</span><span style=\"color: #980000;background-color: #ffffff;\"> </span><span style=\"color: #000000;background-color: #ffffff;\">W takiej sytuacji dalsze korzystanie z serwisu oraz aplikacji mobilnej będzie niemożliwe, a użytkownik zobowiązany jest do odinstalowania aplikacji.</span></p><p dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: #000000;background-color: #ffffff;\">Użytkownik przyjmuje do wiadomości i zgadza się, że Administrator, wedle własnego uznania, może zablokować możliwość korzystania przez użytkownika z serwisu i aplikacji, bez uprzedniego powiadomienia, jeśli użytkownik naruszył Regulamin serwisu lub niniejszą Politykę prywatności. W takiej sytuacji dalsze korzystanie z serwisu oraz aplikacji mobilnej będzie niemożliwe, a użytkownik zobowiązany jest do odinstalowania aplikacji. W takim wypadku Administrator nie ponosi żadnej odpowiedzialności wobec użytkownika z tytułu zaprzestania świadczenia usług oraz zablokowania dostępu do serwisu i aplikacji. </span></p><h3><span style=\"color: #000000;background-color: #ffffff;\"><b>Zakończenie<br/></b></span></h3><p><span style=\"color: rgb(0, 0, 0);\">Akceptując politykę prywatności, użytkownik zgadza się, iż złamanie jej warunków lub działanie niezgodne z jej postanowieniami może skutkować wstrzymaniem dostępu do serwisu oraz aplikacji mobilnej przez Administratora bez żadnego wcześniejszego powiadomienia.</span></p><p></p><!--EndFragment-->",
+            "status": "Active"
+        },
+        {
+            "title": "Regulamin",
+            "content": "<h2>Regulamin serwisu internetowego i aplikacji świadczonych przez Mr India Restauracja Indyjska (Mr India Arunbhai Barot)</h2><h4>I. Postanowienia ogólne</h4><p>1. Niniejszy regulamin określa zasady korzystania z serwisu internetowego (zwanego dalej: “serwis”) oraz aplikacji mobilnej (zwanej dalej: “aplikacja”) prowadzonych przez Mr India Arunbhai Barot, zarejestrowaną w Warszawie 02-797, ul. Aleja Komisji Edukacji Narodowej 47/U4, wpisaną do Centralnej Ewidencji i Informacji o Działalności Gospodarczej, NIP: 9512259450, REGON: 146927790 (zwaną dalej: „Restauracja”).</p><p>2. Serwis oraz aplikacja umożliwiają użytkownikom:</p><ol type=\"a\"><li> przeglądanie w sieci Internet ofert Restauracji,</li><li> składanie zamówień na produkty dostępne w ofercie Restauracji z dostawą lub bez,</li><li> dokonywanie rezerwacji stolika / stolików w Restauracji,</li></ol><p></p><p>3. Korzystanie z serwisu i aplikacji jest bezpłatne. Płatność za zamówione produkty w Restauracji określona jest zawsze szczegółowo w podsumowaniu zamówienia. </p><p>4. Złożenie zamówienia oznacza zawarcie umowy pomiędzy Restauracją, a użytkownikiem. Umowa zostaje zawarta w chwili potwierdzenia użytkownikowi przez Restaurację faktu przyjęcia zamówienia. </p><p>5. Regulamin określa prawa i obowiązki Restauracji i użytkowników serwisu oraz aplikacji. Restauracja świadczy usługi w ramach serwisu i aplikacji zgodnie z regulaminem.</p><p>6. Korzystanie z serwisu lub aplikacji oznacza zgodę na postanowienia regulaminu. Każdy użytkownik powinien zapoznać się z treścią regulaminu przed rozpoczęciem korzystania z serwisu lub aplikacji. Użytkownik, który nie wyraża zgody na postanowienia regulaminu powinien zaprzestać korzystania z serwisu lub aplikacji. Dodatkowo, w przypadku aplikacji powinien on też niezwłocznie odinstalować aplikację ze swojego urządzenia mobilnego.</p><p>7. Użytkownik nie może umieszczać w serwisie lub aplikacji treści bezprawnych. </p><p>8. Restauracja w ramach serwisu lub aplikacji nie świadczy usług telekomunikacyjnych w rozumieniu Ustawy z dnia 16 lipca 2004 r. Prawo telekomunikacyjne (Dz.U. z 2004 nr 171 poz. 1800 z późn. zm.), w związku z powyższym wszelkie reklamacje związane z tego rodzaju usługami, użytkownik powinien kierować do operatora telekomunikacyjnego, z którego usług korzysta.</p><p></p><h4>II. Wymagania techniczne </h4><p></p><p>1. Korzystanie z serwisu wymaga posiadania przez użytkownika urządzenia pozwalającego na dostęp do sieci Internet, przeglądarki Internet Explorer, Chrome, Safari, Firefox, Opera lub ich nowszych wersji oraz oprogramowania akceptującego pliki cookies. <br/></p><p>2. Korzystanie z aplikacji wymaga posiadania przez użytkownika urządzenia mobilnego połączonego z Internetem współpracującego z systemem operacyjnym iOS lub Android oraz pobrania aplikacji z wybranego sklepu z aplikacjami mobilnymi i zainstalowania aplikacji na swoim urządzeniu mobilnym.</p><p></p><h4>III. Zastrzeżenie dotyczące korzystania z aplikacji </h4><p></p><p>1. Korzystanie z aplikacji może być uzależnione od zainstalowania odpowiedniego oprogramowania wymaganego przez dostawcę systemu operacyjnego, w ramach którego działa urządzenie mobilne użytkownika lub jego aktualizacji. </p><p>2. Do poprawnego działania aplikacji może być również konieczne zainstalowanie aktualizacji lub poprawek aplikacji świadczonej przez Restaurację.</p><p>3. Koszty połączenia urządzenia mobilnego z Internetem wynikają z umowy pomiędzy użytkownikiem a odpowiednim operatorem telekomunikacyjnym. </p><p>4. Użytkownik przyjmuje do wiadomości, że w niektórych miejscach ze względu na słabą jakość połączenia z Internetem lub jego brak, aplikacja może nie działać poprawnie lub być niedostępna. </p><p></p><h4>IV. Korzystanie z serwisu i aplikacji </h4><p></p><p>1. Korzystanie z serwisu lub aplikacji jest dobrowolne.</p><p>2. Serwis i aplikacja są przeznaczone dla osób fizycznych posiadających pełną zdolność do czynności prawnych. Użytkownikiem może być również osoba małoletnia i/lub nieposiadająca pełnej zdolności do czynności prawnych, pod warunkiem uzyskania zgody przedstawiciela ustawowego. Osoba prawna może mieć własny profil pod warunkiem wskazania jednej osoby fizycznej jako użytkownika. </p><p>3. Składanie zamówień lub dokonanie rezerwacji poprzez serwis lub aplikację jest możliwe po dokonaniu rejestracji dla użytkowników zalogowanych.</p><p>4. W celu rejestracji użytkownik powinien podać swój aktywny adres e - mail, imię, nazwisko, numer telefonu kontaktowego, dane adresowe oraz unikalne hasło, a także przejść procedurę weryfikacji wskazaną przez Restaurację.</p><p>5. Dokonując rejestracji użytkownik akceptuje niniejszy regulamin oraz politykę prywatności.</p><p>6. W przypadku pozytywnej rejestracji Restauracja utworzy profil użytkownika, w którym przechowywać będzie jego ustawienia konfiguracyjne oraz dane podane przez niego w czasie rejestracji. Dane te będą niewidoczne dla innych użytkowników. </p><p></p><h4>V. Zakres działań Restauracji w ramach serwisu i aplikacji </h4><p></p><p>1. Restauracja może zamieszczać w serwisie lub aplikacji reklamy oraz inne elementy promocji towarów i usług osób trzecich. </p><p>2. Restauracja dokłada wszelkich starań, aby serwis i aplikacja działały poprawnie, ale nie gwarantuje ich ciągłej dostępności. Restauracja może czasowo zawiesić działanie serwisu lub aplikacji, gdy koniecznie to będzie w celu usunięcia awarii lub poprawy ich działania.</p><p>3. Restauracja zastrzega sobie prawo do ingerencji w profil użytkownika w celu usunięcia nieprawidłowości w funkcjonowaniu serwisu lub aplikacji oraz zakłóceń lub problemów w funkcjonowaniu profilu. </p><p>4. Jakiekolwiek próby włamania do serwisu lub aplikacji, złamania kodów oraz korzystania z nich w sposób niezgodny z regulaminem, mogą pociągnąć za sobą bez uprzedzenia nieodwracalne zablokowanie dostępu do serwisu lub aplikacji oraz stosowne kroki prawne. </p><p>5. Restauracja zastrzega sobie prawo zakończenia świadczenia usługi serwisu lub aplikacji.</p><p></p><h4>VI. Składanie zamówień i dokonywanie rezerwacji</h4><p></p><p>1. W celu złożeniu zamówienia użytkownik musi:</p><ol type=\"a\"><li>zalogować się do aplikacji/strony internetowej;</li><li>wybrać Produkty będące przedmiotem Zamówienia, a następnie przejść do koszyka;</li><li>wybrać opcję dostawy “na wynos” lub “dowóz”;</li><li>kliknąć przycisk “Zamawiam i płacę” / kliknąć przycisk “Zamawiam i płacę” oraz potwierdzić zamówienie;</li><li>wybrać jeden z dostępnych sposobów płatności i w zależności od sposobu płatności, opłacić zamówienie;</li><li>otrzymać wiadomość e-mail od: no-reply@R9.pl z potwierdzeniem oraz dodatkowymi informacjami na temat realizacji zamówienia.</li></ol><p></p><p>2. W celu złożenia Rezerwacji należy:</p><ol type=\"a\"><li>zalogować się do aplikacji/strony internetowej;</li><li>przejść do sekcji rezerwacja, podać liczbę osób oraz datę rezerwacji stolika;</li><li>potwierdzić złożenie rezerwacji;</li><li>otrzymać wiadomość e-mail od: no-reply@R9.pl zawierającą informacje na temat rezerwacji.</li></ol><p></p><p>3. Restauracja zastrzega sobie możliwość telefonicznego potwierdzenia bądź anulowania złożonego zamówienia lub rezerwacji stolika na numer telefonu wskazany przez użytkownika w trakcie składania zamówienia/dokonywania rezerwacji.</p><p>4. Akceptowane przez Restaurację sposoby płatności pojawią się na ekranie urządzenia użytkownika po złożeniu zamówienia.</p><p></p><h4>VII. Ochrona danych osobowych </h4><p></p><p>W celu uzyskania informacji na temat ochrony danych osobowych na naszej stronie internetowej/w aplikacji, zobacz naszą politykę prywatności. </p><p></p><h4>VIII. Obowiązki użytkowników </h4><p></p><p>1. Każdy użytkownik może mieć tylko jeden profil i nie może go udostępniać innym osobom ani korzystać z profilu należącego do innej osoby. </p><p>2. Użytkownik zobowiązuje się powstrzymać od działań mogących utrudniać lub zakłócać działanie serwisu lub aplikacji. W przypadku stwierdzenia dopuszczenia się takich działań przez użytkownika, niezależnie od innych działań Restauracja ma prawo do zablokowania profilu. </p><p>3. Użytkownik zobowiązuje się do:</p><ol type=\"a\"><li>przestrzegania prawa i dobrych obyczajów, </li><li>nie składania nieprawdziwych zamówień, </li><li>regulowania należności finansowych za złożone zamówienia. </li></ol><p></p><p>4. Użytkownik oświadcza, że wszelkie treści, w tym dane osobowe, umieszczane przez niego w serwisie lub aplikacji, są prawdziwe i nie naruszają jakichkolwiek praw osób trzecich. </p><p>5. Zabrania się wykorzystywania serwisu lub aplikacji w sposób sprzeczny z ich celem. Zabrania się rozsyłania spamu i niezamówionej informacji handlowej oraz uprawiania działalności komercyjnej, reklamowej lub promocyjnej. </p><p>6. Zabrania się kopiowania części lub całości serwisu bądź aplikacji lub wykorzystywania go przez użytkownika w celach zarobkowych.</p><p></p><h4>IX. Odstąpienie od Umowy</h4><p></p><p>1. Z uwagi na łatwo psujący się charakter produktów oferowanych przez Restaurację, użytkownik nie jest uprawniony do odstąpienia od Umowy po rozpoczęciu jej faktycznej realizacji (art. 38 pkt 4 ustawy z dnia 30 maja 2014 r o prawach konsumenta (Dz.U. 2014 poz. 827). Odstąpienie od zawartej Umowy pomiędzy Restauracją a użytkownikiem przed rozpoczęciem jej faktycznej realizacji jest możliwe bez podania jakiejkolwiek przyczyny poprzez kontakt telefoniczny z Restauracją.</p><p>2. Restauracja jest uprawniona do odstąpienia od Umowy, w przypadku:</p><ol type=\"a\"><li>zaistnienia siły wyższej uniemożliwiającej realizację Umowy,</li><li>dezaktualizacji zamieszczonej w serwisie/aplikacji oferty w sytuacji, gdy użytkownik nie zgodził się na alternatywę dotyczącą zamówienia złożoną przez Restaurację,</li><li>przekazania przez użytkownika nieprawidłowego lub nieosiągalnego numeru telefonu lub adresu dostawy.</li></ol><p></p><p>3. W przypadku odstąpienia od Umowy przez którąkolwiek ze stron traktuje się ją jako niezawartą. Restauracja dokona zwrotu płatności uiszczonej przez użytkownika przy użyciu takiego samego sposobu zapłaty, jakiego użył użytkownik.</p><p>4. W przypadku złożenia przez użytkownika fałszywego zamówienia lub niewykonania przez niego Umowy (w szczególności przez jej nieopłacenie lub nieobecność w miejscu dostawy lub w punkcie odbioru w celu odebrania zamówionych produktów), Restauracja jest uprawniona do odmowy przyjęcia jakichkolwiek przyszłych zamówień od takiego użytkownika.</p><p>5. Restauracja jest uprawniona do niezwłocznego odrzucania zamówień składanych przez użytkowników, jeżeli zachodzi uzasadniona wątpliwość co do ich poprawności lub autentyczności. W przypadku odrzucenia przez Restaurację zamówienia już opłaconego, Restauracja przeleje wpłaconą kwotę na rachunek, z którego nastąpiła płatność. W przypadku uzasadnionego podejrzenia popełnienia przestępstwa, Restauracja jest zobowiązana do powiadomienia o tym fakcie odpowiednich organów ścigania.</p><p></p><h4>X. Reklamacje </h4><p></p><p>1. Reklamacje dotyczące funkcjonowania serwisu lub aplikacji użytkownik może zgłaszać Restauracji na adres e-mail: info@mrindia.pl lub w formie pisemnej na adres Mr India Arunbhai Barot: ul. Aleja Komisji Edukacji Narodowej 47/U4, 02-797 Warszawa. Reklamacja powinna zawierać co najmniej adres e-mail użytkownika oraz dokładny opis stanu faktycznego.</p><p>2. Reklamacje dotyczące działalności Restauracji użytkownik może zgłaszać na adres wskazany powyżej.</p><p>3. Reklamacje zostaną rozpatrzone niezwłocznie, nie później jednak niż w ciągu 7 dni roboczych. Użytkownik zostanie poinformowany o swojej reklamacji poprzez e-mail lub listownie. </p><p></p><h4>XI. Zakończenie świadczenia usług </h4><p></p><p>1. Restauracja zastrzega sobie prawo do zablokowania lub usunięcia profilu użytkownika, którego działania naruszają regulamin.</p><p>2. W przypadku zablokowania profilu użytkownika przez Restaurację, założenie przez użytkownika nowego profilu wymaga uprzedniej zgody Restauracji.</p><p>3. Użytkownik może w każdej chwili zakończyć korzystanie z serwisu poprzez usunięcie swojego profilu. Zakończenie korzystania z aplikacji wymaga usunięcia profilu i odinstalowania aplikacji ze swojego urządzenia mobilnego. </p><p>4. Administrator może domagać się od użytkownika zmiany hasła.</p><p></p><h4>XII. Zmiana regulaminu </h4><p></p><p>1. Restauracja jest uprawniona do wprowadzania zmian w regulaminie ze skutkiem na przyszłość z następujących ważnych przyczyn: </p><ol type=\"a\"><li>zostanie wprowadzona nowa funkcjonalność serwisu lub aplikacji, korzystanie z której nie może odbywać się na podstawie dotychczasowego regulaminu; </li><li>zmiana jest wymuszona przepisami prawa; </li><li>zostanie zmieniona dotychczasowa funkcjonalność serwisu lub aplikacji, w szczególności w celu zwiększenia komfortu lub ułatwienia korzystania z serwisu lub aplikacji.</li></ol><p></p><p>2. W przypadku jakiejkolwiek zmiany regulaminu użytkownik ma prawo zrezygnować z usług ze skutkiem natychmiastowym. Procedura rezygnacji opisana jest powyżej.</p>",
+            "status": "Active"
+        },
+        {
+            "title": "Informacje o Cookies",
+            "content": "<p>Cookies and similar tracking technologies, such as beacons, scripts, and tags, are small bits of code, usually stored on a user's computer hard drive or device, which enable a website to &#34;personalize&#34; itself for each user by remembering information about the user's visit to the website.</p><p>As described in more detail below, our Site uses cookies to store your preferences, display content based upon what you view on our Site to personalize your visit, analyze trends, administer the Site, track users' movements around the Site, gather demographic information about our user base as a whole. On mobile websites and mobile apps, we may use Anonymous Device IDs and/or Identifiers in a manner similar to our use of cookies on our websites. To opt-out of certain other cookies, please see the opt-out links below.</p><p><b>First Party Cookies:</b></p><p> We use our cookies to improve your web-browsing/ App/ Site experience. For example, we may use these cookies to remember your language preference or city, or to keep you in a logged in state so the Site does not require you to log in repeatedly to access different pages/services. Our cookies are associated with other data we collect from you. However, no third party may use the information we collect through our cookies for their own purposes. Deletion of these types of cookies will result in limited functionality of our Sites/Apps and services.</p><p><b>Third Party Cookies:</b></p><p> We work with third-parties that place cookies on our Site to provide their services, including:</p><ul><li><b>Analytics/Measurement:</b> We also use third-party analytics cookies to gain insight into how our visitors use the Site/App, to find out what works and what doesn't, to optimize and improve our websites and to ensure we continue to be interesting and relevant. The data we gather includes which web pages you have viewed, which referring/exit pages you have entered and left from, which platform type you have used, date and time stamp information and details such as the number of clicks you make on a given page, your mouse movements and scrolling activity, the search words you use and the text you type while using our Site. We also make use of analytics cookies as part of our online advertising campaigns to learn how users interact with our website after they have been shown an online advertisement, which may include advertisements on third-party websites.</li><li><b>Other Cookies:</b> Our partners, who provide certain features on our Site or display advertising based on your browsing activity, also use Local Storage such as HTML5, to collect and store content information and preferences. Various browsers may offer their own management tools for removing HTML5 local storage.</li></ul><p><b>Mobile Devices, Anonymous Device Identifiers and Hashed IDs:</b> We and/or data providers that we have engaged may collect and store a unique identifier matched to your mobile device, in order to deliver customized ads or content while you use applications or surf the internet, or to identify you in a unique manner across other devices or browsers. In order to customize these ads or content, we or a third-party data partner may collect de-identified demographic or other data about you which you have either voluntarily submitted to us, e.g., your email address, or to has been passively collected from you, such as your device identifier or IP address. However, we will share your email address solely in hashed, non-human readable form.</p><p><b>OPTING OUT OF COOKIES AND TRACKING TECHNOLOGIES:</b> We provide you with choice over the use of cookies as described in this Privacy Policy.</p><p><b>First Party Cookies:</b> If you'd rather we don't use cookies when you visit us, click here for information on how to configure your browser settings to reject cookies. Please note, disabling these types of cookies will result in limited functionality of our Sites/Apps and services.</p><p><b>Third Party Cookies:</b> If you would like to opt-out of third-party cookies, here are some options:</p><ul><li>If you would like to generally (i.e. not just for this Site) opt-out of receiving personalized ads from third party advertisers and ad networks who are members of the Network Advertising Initiative (NAI) or who follow the Digital Advertising Alliance's (DAA) Self-Regulatory Principles for Online Behavioral Advertising by visiting the opt-out pages on the NAI website and DAA website or click <a href=\"http://preferences-mgr.truste.com/?pid=opentable01&amp;aid=opentable01&amp;type=opentable\"></a><a href=\"http://preferences-mgr.truste.com/?pid=opentable01&amp;aid=opentable01&amp;type=opentable\" target=\"blank\">here</a>. If you are located in the European Union, please click <a href=\"http://www.youronlinechoices.eu/\" target=\"blank\">here</a> to opt out.</li>  <li>In order to control the collection of data for analytical purposes by Google Analytics, you may want to visit the following link: https://tools.google.com/dlpage/gaoptout</li><li>If you wish to block other cookies, including those being served by companies that are not part of the NAI or DAA, click <a href=\"http://www.priceline.com/privacypolicy/cookies.asp?plf=pcln\"></a><a href=\"http://www.priceline.com/privacypolicy/cookies.asp?plf=pcln\" target=\"blank\">here</a> for how to configure your browser settings to reject cookies. You can also delete all cookies that are already on your computer's hard drive by searching for and deleting files with &#34;cookie&#34; in it.</li></ul><p><b>Mobile Devices:</b> If you no longer wish to receive interest-based promotions on your mobile applications, please refer to your device's operating system settings and follow instructions below.</p><ul><li>iOS users: To use the &#34;Limit Ad-Tracking&#34; option, follow the instructions provided by Apple here:<a href=\"https://support.apple.com/en-us/HT202074\"> </a><a href=\"https://support.apple.com/en-us/HT202074\" target=\"blank\">Apple Support Center</a></li><li>Android Users: To use the &#34;opt-out of interest-based advertising&#34; option, follow the instructions provided by Google here:<a href=\"https://support.google.com/googleplay/answer/3405269\"> </a><a href=\"https://support.google.com/googleplay/answer/3405269\" target=\"blank\">Google Play Help</a></li><li>You may want to consider downloading the DAA AppChoices Mobile App to manage online behavioral advertising technology.</li></ul><p>If you no longer wish to receive interest-based advertising on your mobile device browser, you can follow the steps outlined above for first party cookies and third party cookies.</p><p><b>Do-Not-Track Signals:</b> We currently do not employ technology that recognizes &#34;do-not-track&#34; signals from your browser.</p><p>Please keep in mind that, without cookies, you may not have access to certain features on our Site/App, including access to your profile/account and certain personalized content. Removing all cookies from your computer could also affect your subsequent visits to certain web sites, including the developer/App web site, by requiring that, for example, you enter your login name when you return to that web site. Please note that even if you opt-out, you will still see ads, but they will not be targeted based upon the information collected through these tracking technologies.</p><p><b>Privacy Policy:</b> Please review our privacy policy  for additional details about how we collect, use, and disclose information in connection with the Services.</p><p><b>Terms &amp; Conditions:</b> Please review our terms &amp; conditions for understanding the terms to use our Site and Services.</p>",
+            "status": "Active"
+        }
+    ]
+}
