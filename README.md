@@ -29,9 +29,3 @@ Agenda of this document is to provide good starting point for any beginner devel
 * Show list of items for selected category
 * User can add / update quantity of specific items 
 * User can favorite any item
-
-
-## Reference Link
-
-* [Redirect to reference mobile app](https://play.google.com/store/apps/details?id=pl.r9.mrindia&rdid=pl.r9.mrindia)
-* [Redirect to reference web app](https://menu.r9.pl/?restId=1#!/menu)

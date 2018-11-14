@@ -18,11 +18,11 @@ class ItemsScreen extends Component {
         const categoryData = menuInfo.menu.filter((category) => {
             return category.id === this.props.itemId
         });
-
         if (categoryData && categoryData.length) {
             let updatedItems = categoryData[0].items.map((item) => {
                 var item = Object.assign({}, item);
                 item.quantity = 1;
+                item.initialPrice = item.price;
                 return item;
             });
             this.setState({items: updatedItems});
@@ -30,19 +30,38 @@ class ItemsScreen extends Component {
     }
 
     addQuantity = (itemId) => {
-        // this.state.items.filter((item) => {
-        //     return item.id === itemId ? item.quantity
-        // })
-        this.setState(prevState => ({
-            quantity: prevState.items
-        }));
+        if (this.state.items) {
+            let newItemsArrayObj = this.state.items.map((item) => {
+                if (itemId === item.id) {
+                    item.price = item.price + item.initialPrice;
+                    item.quantity = item.quantity + 1;
+                    return item;
+                } else {
+                    return item;
+                }
+            });
+            this.setState({
+                quantity: newItemsArrayObj
+            });
+        }
     }
 
-    addRemove = (itemId) => {
-        if (this.state.quantity > 1) {
-            this.setState(prevState => ({
-                quantity: prevState.quantity - 1
-            }));
+    removeQuantity = (itemId) => {
+        if (this.state.items) {
+            let newItemsArrayObj = this.state.items.map((item) => {
+                if (itemId === item.id) {
+                    if (item.quantity > 1) {
+                        item.price = item.price - item.initialPrice;
+                        item.quantity = item.quantity - 1;
+                        return item;
+                    }
+                } else {
+                    return item;
+                }
+            });
+            this.setState({
+                quantity: newItemsArrayObj
+            });
         }
     }
 
@@ -71,9 +90,10 @@ class ItemsScreen extends Component {
                                         >
                                             <Text>Add</Text>
                                         </CardItem>
-                                        <Text style={styles.quantity}>Item Quantity: {item.quantity}</Text>
+                                        <Text style={styles.quantityTitle}>Item Quantity:</Text>
+                                        <Text style={styles.quantityValue}>{item.quantity}</Text>
                                         <CardItem footer button 
-                                            onPress={() => this.addRemove(item.id)}
+                                            onPress={() => this.removeQuantity(item.id)}
                                             style={styles.button}
                                         >
                                             <Text>Remove</Text>
@@ -96,14 +116,22 @@ const styles = StyleSheet.create({
         justifyContent: "space-between"
     },
     button: {
-        backgroundColor: "#1976D2",
+        backgroundColor: "#EF5350",
         margin: 2,
-        color: "#fff",
-        textAlign: 'center'
+        color: "#FFEBEE",
+        textAlign: 'center',
+        padding: 0
     },
-    quantity: {
+    quantityTitle: {
         margin: 2,
-        textAlign: 'center'
+        textAlign: 'center',
+        padding: 10
+    },
+    quantityValue: {
+        margin: 2,
+        textAlign: 'center',
+        padding: 10,
+        backgroundColor: "#90CAF9"
     }
 });
 

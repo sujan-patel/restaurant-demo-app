@@ -28,7 +28,7 @@ class DetailScreen extends Component {
           }
         }
       });
-    } else {
+    } else if(screen === "map") {
       Navigation.push(this.props.componentId, {
         component: {
           name: 'DemoApp.MapScreen',
@@ -43,7 +43,22 @@ class DetailScreen extends Component {
           }
         }
       });
-    }    
+    } else if (screen === "picImage") {
+      Navigation.push(this.props.componentId, {
+        component: {
+          name: 'DemoApp.ImagePickerScreen',
+          options: {
+            topBar: {
+              title: {
+                text: 'Image Picker',
+                fontFamily: 'Helvetica',
+                alignment: 'center'
+              }
+            }
+          }
+        }
+      });
+    }
   };
 
   render() {
@@ -61,6 +76,10 @@ class DetailScreen extends Component {
 
             <TouchableOpacity onPress={() => this.redirectToDetailScreen("map")}>
               <Text style={styles.btn}>Map</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={() => this.redirectToDetailScreen("picImage")}>
+              <Text style={styles.btn}>Image Picker</Text>
             </TouchableOpacity>
           </View>
 
@@ -109,7 +128,7 @@ const styles = StyleSheet.create({
     btn: {
       backgroundColor: "#1976D2",
       padding: 10,
-      width: 170,
+      width: 116,
       borderRadius: 3,
       color: "#fff",
       textAlign: 'center'

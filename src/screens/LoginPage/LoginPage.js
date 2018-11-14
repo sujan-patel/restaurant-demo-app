@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, ToolbarAndroid } from 'react-native';
 import { Navigation } from 'react-native-navigation';
-import Icon from 'react-native-vector-icons/Ionicons';
-const mapIcon = (<Icon name="map" size={30} color="#900" />);
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import CustomInput from '../../components/UI/CustomInput/CustomInput';
 import CustomButton from '../../components/UI/CustomButton/CustomButton';
@@ -25,7 +24,7 @@ export default class LoginPage extends Component {
     }
 
     changeScreen = () => {
-        Icon.getImageSource("map", 30)
+        Ionicons.getImageSource("md-navigate", 30)
         .then((map) => {
             Navigation.setRoot({
                 root: {
@@ -42,7 +41,8 @@ export default class LoginPage extends Component {
                                     },
                                     rightButtons: [{
                                             icon: map,
-                                            id: "mapToggle"
+                                            id: "mapToggle",
+                                            color: "#0D47A1"
                                     }]
                                 }
                             }
